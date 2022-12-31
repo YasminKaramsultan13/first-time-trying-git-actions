@@ -17,8 +17,8 @@ jobs:
         run: pwd
 
 
-      - name: 'Testing printing'
-        run: echo Yasmin
+      - name: 'Printing folder contents'
+        run: ls
 
 
 
