@@ -13,12 +13,15 @@ jobs:
 
 
     steps:
-      - name: 'Testing Github action'
-        run: pwd
-
-
-      - name: 'Printing folder contents'
+     
+      - name: 'Before'
         run: ls
+        
+      - uses: actions/checkout@v3
+
+      - name: 'After'
+        run: ls
+        
 
 
 
